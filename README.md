@@ -16,3 +16,6 @@ Roteiro
 
 - Criar a classe Game
 
+- Executar o projeto e acessar http://localhost:8080/h2-console
+
+- Criar arquivo de Seed: import.sql

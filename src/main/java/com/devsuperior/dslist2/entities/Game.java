@@ -17,28 +17,34 @@ public class Game {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
 	private String title;
+	private Double score;
 	
 	@Column(name = "game_year")
 	private Integer year;
 	private String genre;
-	private String platform;
+	private String platforms;
 	private String imgUrl;
-	private String shrtDescription;
+	
+	@Column(columnDefinition = "TEXT")
+	private String shortDescription;
+	
+	@Column(columnDefinition = "TEXT")
 	private String longDescription;
 	
 	public Game() {
 		
 	}
 
-	public Game(Long id, String title, Integer year, String genre, String platform, String imgUrl,
-			String shrtDescription, String longDescription) {
+	public Game(Long id, String title, Double score, Integer year, String genre, String platforms, String imgUrl,
+			String shortDescription, String longDescription) {
 		this.id = id;
 		this.title = title;
+		this.score = score;
 		this.year = year;
 		this.genre = genre;
-		this.platform = platform;
+		this.platforms = platforms;
 		this.imgUrl = imgUrl;
-		this.shrtDescription = shrtDescription;
+		this.shortDescription = shortDescription;
 		this.longDescription = longDescription;
 	}
 
@@ -57,6 +63,14 @@ public class Game {
 	public void setTitle(String title) {
 		this.title = title;
 	}
+	
+	public Double getScore() {
+		return score;
+	}
+	
+	public void setScore(Double score ) {
+		this.score = score;
+	}
 
 	public Integer getYear() {
 		return year;
@@ -74,12 +88,12 @@ public class Game {
 		this.genre = genre;
 	}
 
-	public String getPlatform() {
-		return platform;
+	public String getPlatforms() {
+		return platforms;
 	}
 
-	public void setPlatform(String platform) {
-		this.platform = platform;
+	public void setPlatforms(String platforms) {
+		this.platforms = platforms;
 	}
 
 	public String getImgUrl() {
@@ -90,12 +104,12 @@ public class Game {
 		this.imgUrl = imgUrl;
 	}
 
-	public String getShrtDescription() {
-		return shrtDescription;
+	public String getShortDescription() {
+		return shortDescription;
 	}
 
-	public void setShrtDescription(String shrtDescription) {
-		this.shrtDescription = shrtDescription;
+	public void setShortDescription(String shortDescription) {
+		this.shortDescription = shortDescription;
 	}
 
 	public String getLongDescription() {
