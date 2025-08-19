@@ -8,9 +8,9 @@ Roteiro
 
 - execução no Eclipse e teste no browser
 
-3 - Configuração do plugin Maven
-
-4 - Configuração do application.properties
+- Configuração do plugin Maven
+s
+- Configuração do application.properties
 
 - Configuração do application-test.properties
 
@@ -19,3 +19,16 @@ Roteiro
 - Executar o projeto e acessar http://localhost:8080/h2-console
 
 - Criar arquivo de Seed: import.sql
+
+- Reiniciar o projeto para validar a população da tabela TB_GAME no H2
+
+- Criar o DTO GameMinDTO
+
+- Criar objeto Repository (extends JpaRepository)
+
+- Criar camada de Serviço (Service) - responsável pelas regras de negócio (componente registrado)
+
+- Criar o Controlador 
+
+- 
+
