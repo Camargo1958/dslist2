@@ -1,15 +1,17 @@
-Roteiro
+**Roteiro**
 
-1 - Criação do arquivo de inicialização
+**D1:**
 
-2 - Download
+- Criação do arquivo de inicialização
 
-3 - Importação no Eclipse
+- Download
+
+- Importação no Eclipse
 
 - execução no Eclipse e teste no browser
 
 - Configuração do plugin Maven
-s
+
 - Configuração do application.properties
 
 - Configuração do application-test.properties
@@ -30,5 +32,12 @@ s
 
 - Criar o Controlador 
 
-- 
+
+**D2:**
+
+- Relacionamentos: muitos para muitos, classe extra de associação com dados extras (Belonging)
+
+- Implementar modelo de domínio: implementar classes GameList, Belonging
+
+
 
