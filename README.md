@@ -43,9 +43,18 @@
 
 - Implementar GameDTO, busca game por id
 
-- Implementar busca de todas as listas em /lists
+- Implementar busca de todas as listas em /listss
 
-- 
+
+**D3:**
+
+- Configuração de perfis (test/Homologação/produção)
+
+- Levantar um BD Postgres + PgAdmin
+
+- Criar perfis para HML local (projeto, gerar script da base de dados, criar BD de HML, rodar app no modo dev e validar)
+
+-
 
 
 
