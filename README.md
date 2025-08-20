@@ -41,6 +41,9 @@
 
 - Atualizar o seed da base de dados
 
+- Implementar GameDTO, busca game por id
+
+- 
 
 
 
