@@ -43,7 +43,9 @@
 
 - Implementar GameDTO, busca game por id
 
-- 
+- Implementar busca de todas as listas em /lists
+
+-
 
 
 
