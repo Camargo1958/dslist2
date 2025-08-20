@@ -39,5 +39,9 @@
 
 - Implementar modelo de domínio: implementar classes GameList, Belonging
 
+- Atualizar o seed da base de dados
+
+
+
 
 
