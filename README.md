@@ -8,7 +8,7 @@
 
 - Importação no Eclipse
 
-- execução no Eclipse e teste no browser
+- Execução no Eclipse e teste no browser
 
 - Configuração do plugin Maven
 
