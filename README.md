@@ -54,7 +54,23 @@
 
 - Criar perfis para HML local (projeto, gerar script da base de dados, criar BD de HML, rodar app no modo dev e validar)
 
--
+
+**D4:**
+
+- Criar método Move em GameListService
+
+- Criar método ipdateBelongingPosition e query em 
+
+- Criar ReplacementDTO para receber o objeto da requisição POST de atualização de posição de objetos na lista de jogos
+
+- Criar método Move em GameListController
+
+- Consulta do BD:
+SELECT TB_BELONGING .*, TB_GAME.TITLE FROM TB_BELONGING
+INNER JOIN TB_GAME ON TB_GAME.ID = TB_BELONGING.GAME_ID
+WHERE LIST_ID = 2
+ORDER BY POSITION
+
 
 
 
